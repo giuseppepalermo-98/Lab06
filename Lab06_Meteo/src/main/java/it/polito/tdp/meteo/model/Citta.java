@@ -20,6 +20,10 @@ public class Citta {
 		this.rilevamenti = rilevamenti;
 	}
 
+	public void Addrilevamento(Rilevamento rilevamento) {
+		rilevamenti.add(rilevamento);
+	}
+	
 	public String getNome() {
 		return nome;
 	}

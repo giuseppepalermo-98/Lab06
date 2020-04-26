@@ -3,7 +3,7 @@ package it.polito.tdp.meteo.model;
 import java.util.Date;
 
 public class Rilevamento {
-	
+
 	private String localita;
 	private Date data;
 	private int umidita;
